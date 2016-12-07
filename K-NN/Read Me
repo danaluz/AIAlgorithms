@@ -1,0 +1,12 @@
+This examples are code implementations following the tutorial in:
+https://www.dataquest.io/blog/k-nearest-neighbors-in-python/
+
+Both files uses the .cvs file. Inside, there's a NBA database. More information on the database is in:
+http://www.databasebasketball.com/about/aboutstats.htm
+
+The code:
+- knn beginning v1:
+  This code has the goal to find the more nearest player, using the numeric columns, to LeBron James (player include in the database).
+  
+- knn beginning v2 normalized:
+  This code has the goal to predict the points of the players in the dataset. 
