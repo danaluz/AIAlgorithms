@@ -5,6 +5,31 @@ import pandas
 with open("A1Ratings.csv", 'r') as csvfile:
     ratings = pandas.read_csv(csvfile)
 
+
+def mean (column):
+    value = (column.sum()) / len(column)
+    return round(value,2);
+
+def percentage (column):
+    counter = collections.Counter(column)
+    value = ((counter[4]+counter[5])*100)/len(column)
+    return round(value,2);
+
+def distance(longColumnTargetOriginal, columnTarget, column1):
+    compare = (columnTarget & column1)
+    counting = list(filter(lambda x: x == True, compare))
+    counting = len(counting)
+    value = (counting / longColumnTargetOriginal) * 100
+    return round(value,2);
+
+def printingSortedBy (criteria, data):
+    print("Printing Sorted by: ", criteria)
+    sortedRatings = data.sort_values(by=criteria, ascending=False)
+    print(sortedRatings)
+    return;
+
+#-------------------------------------------------------------------------------------------------------------
+
 # Declaring some arrays
 pepe1 = []
 pepe2 = []
@@ -22,18 +47,11 @@ long = len(ratingsMovieTarget[comparison1])
 for i in ratings:
     ratingsColumn = ratings[i]
     ratingsColumn = ratingsColumn[~np.isnan(ratingsColumn)]
-    mean = (ratingsColumn.sum())/len(ratingsColumn)
-    counter = collections.Counter(ratingsColumn)
-    percentage = ((counter[4]+counter[5])*100)/len(ratingsColumn)
-    compare = (comparison1 & ratingsColumn)
-    counting = list(filter(lambda x: x == True, compare))
-    counting = len(counting)
-    porcent = (counting / long) * 100
-    pepe1.append(round(mean,2))
+    pepe1.append(mean(ratingsColumn))
     pepe2.append(ratingsColumn.name[:20]+'...')
     pepe3.append(len(ratingsColumn))
-    pepe4.append(round(percentage, 2))
-    pepe5.append(round(porcent, 2))
+    pepe4.append(percentage(ratingsColumn))
+    pepe5.append(distance(long, comparison1, ratingsColumn))
 
 # Creating a new DataFrame
 d= {'Percentages' : pepe4, 'Name': pepe2, 'Mean': pepe1, 'Ratings': pepe3, 'Distance': pepe5}
@@ -43,28 +61,7 @@ df.drop(df.index[[0]], inplace=True)
 # Reordering the Columns
 df = df[['Name', 'Percentages','Mean','Ratings', 'Distance']]
 
-
-#Sort by Percentages
-testPercentages = df.sort_values(by='Percentages', ascending=False)
-
 #Printing..
-print(testPercentages)
+printingSortedBy('Percentages', df)
 
-#Sort by Mean
-testMean = df.sort_values(by='Mean', ascending=False)
-
-#Printing..
-print(testMean)
-
-#Sort by Ratings
-testRatings = df.sort_values(by='Ratings', ascending=False)
-
-#Printing..
-print(testRatings)
-
-#Sort by Distance
-testDistance = df.sort_values(by='Distance', ascending=False)
-
-#Printing..
-print(testDistance)
 
