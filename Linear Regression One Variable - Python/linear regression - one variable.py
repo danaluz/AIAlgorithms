@@ -45,7 +45,7 @@ with open("ex1data1.txt", 'r') as csvfile:
 
 df = pandas.DataFrame(ex1)
 
-# Ploting our data set
+# Separating our data in x and y
 x = df["City Population"].as_matrix()
 y = df["Profit of Food Truck"].as_matrix()
 
@@ -63,7 +63,7 @@ alpha = 0.01;
 #Gradient descent
 theta = gradientDescent(x,y,theta,alpha,iterations)[0]
 
-# Linear function with te new values of theta
+# Linear function with the new values of theta
 fl = []
 m = len(x)
 for i in range(0,m):
@@ -77,8 +77,8 @@ print("For population = 70,000, we predict a profit of: ",  predict2 * 10000);
 
 # Plotting dataset and linear function
 plt.axis([4, 24, -5, 25])
-plt.ylabel('City Population')
-plt.xlabel('Profit of Food Truck')
+plt.xlabel('City Population')
+plt.ylabel('Profit of Food Truck')
 plt.plot(df["City Population"], df["Profit of Food Truck"], 'bo')
 plt.plot(x, fl, 'r')
 plt.show()
