@@ -14,10 +14,6 @@ def computeCost(X, y, theta):
 
 def gradientDescent(X, y, theta, alpha, num_iters):
     m = len(y)
-    J_history = np.zeros(num_iters);
-    n = 0.0
-    temp2=0.0
-    temp1=0.0
     for i in range(0,num_iters):
         n1=0
         n2=0
@@ -28,9 +24,7 @@ def gradientDescent(X, y, theta, alpha, num_iters):
         temp2 = theta[1] - (alpha) * (1 / m) * n2;
         theta[0] = temp1;
         theta[1] = temp2;
-        J_history[i] = computeCost(X, y, theta)
-
-    return (theta,J_history);
+    return theta;
 
 
 
@@ -61,7 +55,7 @@ iterations = 1500;
 alpha = 0.01;
 
 #Gradient descent
-theta = gradientDescent(x,y,theta,alpha,iterations)[0]
+theta = gradientDescent(x,y,theta,alpha,iterations)
 
 # Linear function with the new values of theta
 fl = []
