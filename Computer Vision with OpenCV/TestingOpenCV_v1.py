@@ -16,7 +16,6 @@ while True:
         scaleFactor=1.1,
         minNeighbors=5,
         minSize=(30, 30),
-        flags=cv2.cv.CV_HAAR_SCALE_IMAGE
     )
 
     # Draw a rectangle around the faces
@@ -26,6 +25,7 @@ while True:
     # Display the resulting frame
     cv2.imshow('Video', frame)
 
+# Close windows with "Q" key
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
