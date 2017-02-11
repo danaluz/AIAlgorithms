@@ -1,11 +1,12 @@
+```Text can be **bold**, _italic_, or ~~strikethrough~~. 
+```
+#### [](#header-4)How I got started with AI
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-#### [](#header-4)How do I got started with AI
+I am a member of the [Artificial Intelligence and Robotics Group](http://www.secyt.frba.utn.edu.ar/giar/) in UTN - Buenos Aires, Argentina, and I'm working in a [BCI](Artificial Intelligence and Robotics Group) project.
 
+#### [](#header-5)[K-NN Algorithm](k-nn-v1).
 
-#### [](#header-4)[K-NN Algorithm](k-nn-v1).
-
-There should be whitespace between paragraphs.
+The K- Nearest Neighbour is one of the simple yet powerful algorithms, and I first encounter it when I was reading about swarm intelligent
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
