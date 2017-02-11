@@ -1,10 +1,9 @@
----
-layout: default
----
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
+#### [](#header-4)How do I got started with AI
 
-[Link to another page](another-page).
+
+#### [](#header-4)[K-NN Algorithm](k-nn-v1).
 
 There should be whitespace between paragraphs.
 
@@ -121,3 +120,6 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+---
+layout: default
+---
