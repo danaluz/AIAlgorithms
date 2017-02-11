@@ -1,0 +1,25 @@
+Link to the page:
+https://textblob.readthedocs.io/en/dev/
+
+Setting TextBlob with Anaconda 
+1. Download the repository from GitHub
+2. Install from Anaconda Prompt with the command:
+>> python setup.py install
+3. Execute in a new file (you can skip this part if you already done it)
+>> import nltk
+>> nltk.download() 
+It's going to open a windows form and select "punkt" in the options.
+4. Unzip the NLTK packages in the Anaconda Prompt with:
+>> python -m textblob.download_corpora 
+
+Para usar TextBlob
+1- Descargar el código desde Github 
+2. Instalar desde Anaconda Prompt(con conda tira un error relacionado con win-64) el archivo se llama setup.py
+>>python setup.py install (en la carpeta de descarga del repositorio) 
+3. Ejecutar desde el codigo
+>>> import nltk
+>>> nltk.download() 
+seleccionar punkt
+3. ejecutar en Anaconda Prompt
+python -m textblob.download_corpora 
+

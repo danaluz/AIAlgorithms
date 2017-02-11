@@ -1,0 +1,4 @@
+    Mean Rating: Calculate the mean rating for each movie, order with the highest rating listed first, and submit the top 5.
+    % of ratings 4+: Calculate the percentage of ratings for each movie that are 4 or higher. Order with the highest percentage first, and submit the top 5.
+    Rating Count: Count the number of ratings for each movie, order with the most number of ratings first, and submit the top 5.
+    Top 5 Star Wars: Calculate movies that most often occur with Star Wars: Episode IV - A New Hope (1977) using the (x+y)/x method described in class. In other words, for each movie, calculate the percentage of Star Wars raters who also rated that movie. Order with the highest percentage first, and submit the top 5.
