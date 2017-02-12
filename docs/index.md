@@ -2,7 +2,7 @@
 
 I am a member of the [Artificial Intelligence and Robotics Group](http://www.secyt.frba.utn.edu.ar/giar/) in UTN - Buenos Aires, Argentina, and I'm working on a [BCI](https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface) project.
 
-I am interested in Machine Learning algorithms, and I found several types of implementations across the web, that I tried and coded.
+I am interested in Machine Learning algorithms, and I found several types of implementations across the web, that I tried and coded. I am by no means an expert, just an enthusiast. 
 
 #### [](#header-3)[K-NN Algorithm](k-nn-v1).
 
@@ -16,7 +16,9 @@ Another simple algorithm, this time for the use of prediction. Actually, this ex
 
 #### [](#header-3) [Recommender Systems](recommender-systemms)
 
-In [ECI's](http://www.dc.uba.ar/events/eci) courses of 2016, I was lucky enough to get a spot on the lecture of [Carlos Castillo](http://chato.cl/) and Data Mining in Graphs and Social Media, great course. 
+In [ECI's](http://www.dc.uba.ar/events/eci) courses of 2016, I was lucky enough to get a spot on the lecture of [Carlos Castillo](http://chato.cl/): Data Mining in Graphs and Social Media. It was a great introduction and [**here**](https://drive.google.com/open?id=0B9XnQ28QMi7HZHgySHdzdHl6V3c) you can check out my graded work about Facebook.
+
+This motivated my curiosity about Recommender Systems and how it works, so I begin searching about movie ratings. This is how a found out about the [MovieLens](https://movielens.org/) page and furthermore, about the GroupLens research lab.  
 
 ##### [](#header-3) A few places to start
 
