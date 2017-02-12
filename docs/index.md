@@ -1,4 +1,4 @@
-##### [](#header-3) How I got started with AI
+## [](#header-3) How I got started with AI
 
 I am a member of the [Artificial Intelligence and Robotics Group](http://www.secyt.frba.utn.edu.ar/giar/) in UTN - Buenos Aires, Argentina, and I'm working on a [BCI](Artificial Intelligence and Robotics Group) project.
 
