@@ -18,7 +18,7 @@ Another simple algorithm, this time for the use of prediction. Actually, this ex
 
 In [ECI's](http://www.dc.uba.ar/events/eci) courses of 2016, I was lucky enough to get a spot on the lecture of [Carlos Castillo](http://chato.cl/) and Data Mining in Graphs and Social Media, great course. 
 
-#### [](#header-3) A few places to start
+##### [](#header-3) A few places to start
 
 Here are a few links you could try if you already have some foundation:
 
