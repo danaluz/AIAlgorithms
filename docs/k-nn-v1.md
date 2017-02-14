@@ -1,6 +1,6 @@
-# [](#header-3) K - Nearest Neighbour
+### [](#header-3) K - Nearest Neighbour
 
-# [](#header-4) Getting started: the travelling salesman problem 
+#### [](#header-4) Getting started: the travelling salesman problem 
 
 The original travelling salesman problem tries to came up with an answer for this question: _"Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?"_ 
 
