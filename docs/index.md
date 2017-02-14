@@ -14,13 +14,13 @@ One of the uses of this type of simulations is related to the Travelling Salesma
 
 Another simple algorithm, this time for the use of prediction. Actually, this example is taken from the Coursera course Machine Learning, a great place to start by the way. In this case, I translate the code from Matlab to Python. Click on the title for a more complete description.
 
-#### [](#header-3) [Recommender Systems](recommender-systemms)
+#### [](#header-3) [Recommender Systems](recommender-systems)
 
 In [ECI's](http://www.dc.uba.ar/events/eci) courses of 2016, I was lucky enough to get a spot on the lecture of [Carlos Castillo](http://chato.cl/): Data Mining in Graphs and Social Media. It was a great introduction and [**here**](https://drive.google.com/open?id=0B9XnQ28QMi7HZHgySHdzdHl6V3c) you can check out my graded work about Facebook.
 
 This motivated my curiosity about Recommender Systems and how it works, so I begin searching about movie ratings. This is how a found out about the [MovieLens](https://movielens.org/) page and furthermore, about the GroupLens research lab.  
 
-##### [](#header-3) A few places to start
+<!--##### [](#header-3) A few places to start
 
 Here are a few links you could try if you already have some foundation:
 
@@ -34,4 +34,4 @@ Here are a few links you could try if you already have some foundation:
 
 And an even better:
 
-* [Coursera: Machine Learning](https://www.coursera.org/learn/machine-learning/home)
+* [Coursera: Machine Learning](https://www.coursera.org/learn/machine-learning/home) -->
