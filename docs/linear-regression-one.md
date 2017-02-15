@@ -19,8 +19,14 @@ Furthermore, if we compute the means, the variance and the correlation, all four
 
 With this in mind, the first thing to do, is trying to plot the dataset so we can get a glimpse of the data.
 
-#### [](#header-4) So..Here is my code
+#### [](#header-4) So..let's back to the code
 
 Here is the general process:
-![](https://www.lucidchart.com/publicSegments/view/85071aa4-eaa5-461b-8820-78c533e856a9/image.jpeg)
+![](https://www.lucidchart.com/publicSegments/view/2ee9f10a-5d8d-4453-8c2f-f029dd200341/image.jpeg)
+
+The first data plotting:
+![](http://lightgroup.com.ar/images_dana/Plotting_Data.PNG)
+
+
+
 
