@@ -21,7 +21,7 @@ With this in mind, the first thing to do, is trying to plot the dataset so we ca
 
 #### [](#header-4) Let's back to the code
 
-I was doing the Coursera course on [Machine Learning](https://www.coursera.org/learn/machine-learning) and I thought that it'll nice to try out and coded the weekly exercise on a different lenguage, and [we the previous experience on Python](k-nn-v1.md), why not give it a shot?
+I was doing the Coursera course on [Machine Learning](https://www.coursera.org/learn/machine-learning) and I thought that it'll nice to try out and code the weekly exercise on a different lenguage, and [with the previous experience on Python](k-nn-v1.md), why not give it a shot?
 
 The problem is:  _Suppose you are the CEO of a restaurant franchise and are considering diﬀerent cities for opening a new outlet. The chain already has trucks in various cities and you have data for proﬁts and populations from the cities. You would like to use this data to help you select which city to expand to next._
 
@@ -88,11 +88,13 @@ def gradientDescent(X, y, theta, alpha, num_iters):
 
 This is how my code is structured:
 
-   ![](https://www.lucidchart.com/publicSegments/view/2ee9f10a-5d8d-4453-8c2f-f029dd200341/image.jpeg)
+   ![](https://www.lucidchart.com/publicSegments/view/ee99f912-8a5f-4092-9fc0-7a980ca65ade/image.jpeg)
 
 
 And this is the final plot:
+
 ![](http://lightgroup.com.ar/images_dana/Plotting_Data_LR.PNG)
+
 Of course, this is just an overview, and I strongly recommend to take the course. 
 
 
