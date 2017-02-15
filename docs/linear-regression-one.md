@@ -23,16 +23,36 @@ With this in mind, the first thing to do, is trying to plot the dataset so we ca
 
 The problem is:  _Suppose you are the CEO of a restaurant franchise and are considering diﬀerent cities for opening a new outlet. The chain already has trucks in various cities and you have data for proﬁts and populations from the cities. You would like to use this data to help you select which city to expand to next._
 
-So, the idea is: given an X Population, how is the predicted profit?
+So, the idea is: **given an X Population, how much is the predicted profit?**
 
-Here is the general process:
+We will try to undestand a little bit of the data by plotting it:
 
-![](https://www.lucidchart.com/publicSegments/view/2ee9f10a-5d8d-4453-8c2f-f029dd200341/image.jpeg)
 
-We will try to undestand the data by plotting it:
+```python
+import matplotlib.pyplot as plt
+import pandas
+
+with open("ex1data1.txt", 'r') as csvfile:
+    ex1 = pandas.read_csv(csvfile)
+    
+df = pandas.DataFrame(ex1)
+
+x = df["City Population"].as_matrix()
+y = df["Profit of Food Truck"].as_matrix()
+
+plt.axis([4, 24, -5, 25])
+plt.ylabel('City Population')
+plt.xlabel('Profit of Food Truck')
+plt.plot(x, y, 'bo')
+plt.show()
+```
+
+And this is our first result:
 
 ![](http://lightgroup.com.ar/images_dana/Plotting_Data.PNG)
 
+This is how my code is structured:
 
+![](https://www.lucidchart.com/publicSegments/view/2ee9f10a-5d8d-4453-8c2f-f029dd200341/image.jpeg)
 
 
