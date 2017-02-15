@@ -24,9 +24,11 @@ With this in mind, the first thing to do, is trying to plot the dataset so we ca
 The problem is:  _Suppose you are the CEO of a restaurant franchise and are considering diﬀerent cities for opening a new outlet. The chain already has trucks in various cities and you have data for proﬁts and populations from the cities. You would like to use this data to help you select which city to expand to next._
 
 Here is the general process:
+
 ![](https://www.lucidchart.com/publicSegments/view/2ee9f10a-5d8d-4453-8c2f-f029dd200341/image.jpeg)
 
 We will try to undestand the data by plotting it:
+
 ![](http://lightgroup.com.ar/images_dana/Plotting_Data.PNG)
 
 
