@@ -5,7 +5,7 @@
 In 1973, Anscombe published this [paper](http://www.sjsu.edu/faculty/gerstman/StatPrimer/anscombe1973.pdf) showing how important is to graph the data whenever possible. Anscombe create four small datasets really different between each other. 
 But it turns out, all the four has the same linear regression coeficient (as you can see on the red line).
 
-![](http://lightgroup.com.ar/images_dana/anscombe.png)
+![](http://ltgp.com.ar/images_dana/anscombe.png)
 
 Furthermore, if we compute the means, the variance and the correlation, all four give us the same values:
 
@@ -51,7 +51,7 @@ plt.show()
 
 And this is our first result:
 
-![](http://lightgroup.com.ar/images_dana/Plotting_Data.PNG)
+![](http://ltgp.com.ar/images_dana/Plotting_Data.PNG)
 
 We have to find the coefficients of a linear function y = **theta 1**x + **theta 0** that better fit the given data.  The general process on this algorithm consist on **obtain the theta values that minimize the cost**:
 ![](http://lightgroup.com.ar/images_dana/costFunction.PNG)
@@ -93,7 +93,7 @@ This is how my code is structured:
 
 And this is the final plot:
 
-![](http://lightgroup.com.ar/images_dana/Plotting_Data_LR.PNG)
+![](http://ltgp.com.ar/images_dana/Plotting_Data_LR.PNG)
 
 Of course, this is just an overview, and I strongly recommend to take the course. 
 
